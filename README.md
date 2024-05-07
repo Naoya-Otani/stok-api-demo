@@ -57,7 +57,7 @@ MySQLへのログイン
   mysql -u root -p
 ```
 
-スキーマ設定等は `init.sql`を確認してください
+スキーマ設定等は [`init.sql`](https://github.com/Naoya-Otani/stok-api-demo/blob/main/init.sql)を確認してください
 
 サーバーを起動する
 
