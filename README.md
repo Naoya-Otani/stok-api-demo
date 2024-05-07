@@ -72,10 +72,6 @@ MySQLへのログイン
   GET /products
 ```
 
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `Content-Type` | `application/json` | None |
-
 #### 商品を追加
 
 ```http
