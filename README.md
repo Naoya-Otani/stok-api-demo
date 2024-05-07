@@ -88,6 +88,10 @@ MySQLへのログイン
 | `brand_id`      | `int` | **必須** ブランドのID |
 | `image_paths`      | `[]string` | **オプショナル** 商品画像へのパス |
 
+## デモ動画
+
+https://github.com/Naoya-Otani/stok-api-demo/assets/102457026/826e262d-662f-4f69-a79f-ff8517e3b4d2
+
 ## 作業時間
 
 | 項目 | 時間 |
