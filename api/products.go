@@ -33,8 +33,7 @@ func HandleProducts(db *sql.DB) http.HandlerFunc {
 				ErrorResponse(w, "Failed to fetch products", http.StatusInternalServerError)
 				return
 			}
-			w.Header().Set("Content-Type", "application/json")
-			json.NewEncoder(w).Encode(products)
+			SuccessResponse(w, products, http.StatusOK)
 		case "POST":
 			var reqProduct RequestProduct
 			if err := json.NewDecoder(r.Body).Decode(&reqProduct); err != nil {
